@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 760" width="100%" height="100%">
+  <defs>
+    <filter id="phoneDepthFront" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="30" stdDeviation="34" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#phoneDepthFront)">
+    <!-- Smartphone Chassis -->
+    <rect x="10" y="10" width="360" height="740" rx="48" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="4"/>
+    
+    <!-- Screen Glass -->
+    <rect x="18" y="18" width="344" height="724" rx="42" fill="#FFFFFF"/>
+
+    <!-- Dynamic Island / Speaker Notch -->
+    <rect x="135" y="28" width="110" height="28" rx="14" fill="#000000"/>
+    <circle cx="225" cy="42" r="5" fill="#1E293B"/>
+
+    <!-- Status Bar Icons -->
+    <text x="45" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#000000">9:41</text>
+    <g transform="translate(305, 36)" fill="#000000">
+      <rect x="0" y="2" width="18" height="10" rx="2" fill="none" stroke="#000000" stroke-width="1.5"/>
+      <rect x="2" y="4" width="12" height="6" rx="1" fill="#000000"/>
+      <rect x="19" y="5" width="2" height="4" rx="0.5" fill="#000000"/>
+    </g>
+
+    <!-- App Top Bar -->
+    <g transform="translate(35, 95)">
+      <circle cx="15" cy="15" r="15" fill="#F4F5F7"/>
+      <path d="M 12 10 L 7 15 L 12 20" stroke="#000000" stroke-width="2" fill="none"/>
+      <text x="145" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#000000" text-anchor="middle">ATELIER STUDIO</text>
+    </g>
+
+    <!-- Large Interactive Watch Dial View -->
+    <g transform="translate(190, 290)">
+      <circle cx="0" cy="0" r="115" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+      <circle cx="0" cy="0" r="105" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+      <!-- Hour Indices -->
+      <circle cx="0.0" cy="-90.0" r="2.5" fill="#000000"/>
+      <circle cx="45.0" cy="-77.9" r="2.5" fill="#000000"/>
+      <circle cx="77.9" cy="-45.0" r="2.5" fill="#000000"/>
+      <circle cx="90.0" cy="-0.0" r="2.5" fill="#000000"/>
+      <circle cx="77.9" cy="45.0" r="2.5" fill="#000000"/>
+      <circle cx="45.0" cy="77.9" r="2.5" fill="#000000"/>
+      <circle cx="0.0" cy="90.0" r="2.5" fill="#000000"/>
+      <circle cx="-45.0" cy="77.9" r="2.5" fill="#000000"/>
+      <circle cx="-77.9" cy="45.0" r="2.5" fill="#000000"/>
+      <circle cx="-90.0" cy="0.0" r="2.5" fill="#000000"/>
+      <circle cx="-77.9" cy="-45.0" r="2.5" fill="#000000"/>
+      <circle cx="-45.0" cy="-77.9" r="2.5" fill="#000000"/>
+      <!-- Hands -->
+      <line x1="0" y1="0" x2="-45" y2="-45" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+      <line x1="0" y1="0" x2="60" y2="-30" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="5" fill="#000000"/>
+      <text x="0" y="-35" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" fill="#000000" text-anchor="middle" letter-spacing="2">LUMI</text>
+    </g>
+
+    <!-- Spec Selector Tabs -->
+    <g transform="translate(35, 450)">
+      <rect x="0" y="0" width="310" height="48" rx="24" fill="#F4F5F7"/>
+      <rect x="4" y="4" width="98" height="40" rx="20" fill="#000000"/>
+      <text x="53" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Steel 316L</text>
+      <text x="155" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#71717A" text-anchor="middle">Titanium</text>
+      <text x="257" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#71717A" text-anchor="middle">Rose Gold</text>
+    </g>
+
+    <!-- Interactive Button -->
+    <g transform="translate(35, 520)">
+      <rect x="0" y="0" width="310" height="52" rx="26" fill="#000000"/>
+      <text x="155" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Explore Details</text>
+    </g>
+
+    <!-- Bottom Indicator Text -->
+    <text x="190" y="610" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#9CA3AF" text-anchor="middle">Interactive Digital Interface</text>
+
+    <!-- Bottom Home Bar -->
+    <rect x="125" y="725" width="130" height="4" rx="2" fill="#000000"/>
+  </g>
+</svg>
